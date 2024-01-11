@@ -1,0 +1,50 @@
+.popup-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .content-container {
+    padding: 20px;
+  }
+  
+  .overflow-y-auto {
+    max-height: 400px; /* Adjust the max height as needed */
+  }
+  
+  .text-container {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .prose {
+    color: #333;
+  }
+  
+  /* Loading indicator styles */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Twitter user styles */
+  .twitter-user {
+    margin-bottom: 10px;
+  }
+  
+  /* Scroll direction styles */
+  .scroll-direction {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+  }
+  

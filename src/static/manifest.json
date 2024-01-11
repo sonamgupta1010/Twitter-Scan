@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Scanner: Rapid Scan User Names",
+    "description": "Get UserNames on FingerTips",
+    "version": "1.0.0",
+    "action" : {
+        "default_popup": "popup.html",
+        "default_title": "Twitter Scanner",
+        "default_icon" : "icon.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "storage",
+        "activeTab",
+        "identity"
+    ],
+    "icons": {
+        "16" : "icon.png",
+        "48" : "icon.png",
+        "128" : "icon.png"
+    },
+    "options_page": "options.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://twitter.com/*"],
+
+            "js": ["contentScript.js"]
+        }
+    ]
+    
+}
