@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from '../component/Button';
-import Summarize from './Summarize';
 import '../assets/tailwind.css';
 
 interface HeaderProps {
